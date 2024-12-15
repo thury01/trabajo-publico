@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('app/resultado/eFBCMWV3RlF1MTAyN2VlUEI5d0V6b3M2K2JNdk80eFArL252N1Y4N0p6YzBoVWdlbmVHeWppTWNSVThKZFp3QQ==_3xeU5tcNCG', function () {
+    return view('welcome');
+});
 
 Auth::routes();
 
